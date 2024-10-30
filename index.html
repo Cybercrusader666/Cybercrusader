@@ -56,6 +56,11 @@
             height: auto; /* Maintenir le ratio d'aspect */
             margin-right: 10px; /* Espace entre l'image et le texte */
         }
+        .nasdaq-explanation {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #aaa; /* Texte gris clair */
+        }
     </style>
 </head>
 <body>
@@ -66,7 +71,7 @@
         <div class="link-section">
             <h2>Prix au m² en France</h2>
             <a class="image-link" href="https://www.meilleursagents.com/prix-immobilier/" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/House_icon.svg/1200px-House_icon.svg.png" alt="Prix au m²">
+                <img src="prixm2.png" alt="Prix au m²">
                 Consulter les prix au m²
             </a>
         </div>
@@ -76,6 +81,7 @@
             <div class="iframe-container">
                 <h3>Cours du NASDAQ</h3>
                 <iframe src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_1&symbol=NASDAQ%3AQQQ&interval=1D&hidesidetoolbar=1&theme=dark&style=1" title="Graphique NASDAQ"></iframe>
+                <p class="nasdaq-explanation">Le NASDAQ est un marché boursier américain, connu pour accueillir de nombreuses entreprises technologiques.</p>
             </div>
             <div class="iframe-container">
                 <h3>Cours de l'Or</h3>
