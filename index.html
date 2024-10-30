@@ -47,6 +47,15 @@
             border: none;
             border-radius: 4px; /* Coins arrondis */
         }
+        .image-link {
+            display: flex;
+            align-items: center;
+        }
+        .image-link img {
+            width: 40px; /* Largeur de l'image */
+            height: auto; /* Maintenir le ratio d'aspect */
+            margin-right: 10px; /* Espace entre l'image et le texte */
+        }
     </style>
 </head>
 <body>
@@ -56,7 +65,8 @@
 
         <div class="link-section">
             <h2>Prix au m² en France</h2>
-            <a href="https://www.meilleursagents.com/prix-immobilier/" target="_blank">
+            <a class="image-link" href="https://www.meilleursagents.com/prix-immobilier/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/House_icon.svg/1200px-House_icon.svg.png" alt="Prix au m²">
                 Consulter les prix au m²
             </a>
         </div>
@@ -65,7 +75,7 @@
             <h2>Graphiques en Direct</h2>
             <div class="iframe-container">
                 <h3>Cours du NASDAQ</h3>
-                <iframe src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_1&symbol=NASDAQ%3A%5EIXIC&interval=1D&hidesidetoolbar=1&theme=dark&style=1" title="Graphique NASDAQ"></iframe>
+                <iframe src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_1&symbol=NASDAQ%3AQQQ&interval=1D&hidesidetoolbar=1&theme=dark&style=1" title="Graphique NASDAQ"></iframe>
             </div>
             <div class="iframe-container">
                 <h3>Cours de l'Or</h3>
