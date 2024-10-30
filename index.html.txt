@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Outils Pratiques</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Styles généraux */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        h1, h2 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #0077b6;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section principale */
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Cards pour les liens */
+        .card {
+            background-color: #e1ecf4;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+            background-color: #d1e7f1;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+
+        .card p {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .card a {
+            text-decoration: none;
+            color: #0077b6;
+            font-weight: bold;
+        }
+
+        .card a:hover {
+            color: #005f91;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barre de navigation -->
+    <div class="navbar">
+        <a href="#immobilier">Prix immobilier</a>
+        <a href="#finance">Outils financiers</a>
+        <a href="#autres">Autres outils</a>
+    </div>
+
+    <!-- Contenu principal -->
+    <div class="container">
+        <h1>Mes Outils Pratiques</h1>
+        <p>Retrouvez ici des liens vers divers outils utiles pour vos recherches et analyses.</p>
+
+        <!-- Section Immobilier -->
+        <section id="immobilier">
+            <h2>Prix Immobilier</h2>
+            <div class="card">
+                <h3>Prix au m² - Meilleurs Agents</h3>
+                <p>Consultez les prix de l'immobilier par région et ville.</p>
+                <a href="https://www.meilleursagents.com/prix-immobilier/" target="_blank">Voir le site</a>
+            </div>
+            <!-- Ajoute ici d'autres outils immobiliers si nécessaire -->
+        </section>
+
+        <!-- Section Finance -->
+        <section id="finance">
+            <h2>Outils Financiers</h2>
+            <div class="card">
+                <h3>Simulateur de prêt immobilier</h3>
+                <p>Estimez vos mensualités et coûts de crédit en fonction de votre projet.</p>
+                <a href="https://www.votre-simulateur-pret.fr" target="_blank">Voir le site</a>
+            </div>
+            <div class="card">
+                <h3>Calculateur de taux d’endettement</h3>
+                <p>Vérifiez votre capacité d’endettement avant un achat.</p>
+                <a href="https://www.votre-calculateur-endettement.fr" target="_blank">Voir le site</a>
+            </div>
+        </section>
+
+        <!-- Section Autres Outils -->
+        <section id="autres">
+            <h2>Autres Outils</h2>
+            <div class="card">
+                <h3>Comparateur d’assurance auto</h3>
+                <p>Comparez les offres d'assurance pour obtenir le meilleur prix.</p>
+                <a href="https://www.votre-comparateur-assurance.fr" target="_blank">Voir le site</a>
+            </div>
+            <div class="card">
+                <h3>Calculateur d’impôts</h3>
+                <p>Évaluez vos impôts sur le revenu en fonction de votre situation.</p>
+                <a href="https://www.votre-calculateur-impots.fr" target="_blank">Voir le site</a>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
